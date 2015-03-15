@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<realty-feed xmlns="https://github.com/pavlik/orel/">
+    <generation-date>2015-03-14T12:00:00+04:00</generation-date>
+  <!-- Минимальный набор полей -->
+    <!-- Квартира на вторичном рынке -->
+    <offer internal-id="1245">
+        <type>продажа</type>
+        <property-type>жилая</property-type>
+        <category>квартира</category>
+
+        <url>http://yandex.ru/1/</url>
+        <creation-date>2010-11-13T12:32:45+04:00</creation-date>
+
+        <location>
+            <country>Россия</country>
+            <locality-name>Москва</locality-name>
+            <address>Яузская улица</address>
+        </location>
+        <sales-agent>
+            <phone>8-495-589-8013</phone>
+        </sales-agent>
+    </offer>
+
+    <!-- Квартира в новостройке -->
+    <offer internal-id="2">
+        <type>продажа</type>
+        <property-type>жилая</property-type>
+        <category>квартира</category>
+
+        <url>http://yandex.ru/1/</url>
+        <creation-date>2010-11-13T12:32:45+04:00</creation-date>
+
+        <location>
+            <country>Россия</country>
+            <locality-name>Москва</locality-name>
+            <address>Яузская улица</address>
+        </location>
+        <sales-agent>
+            <phone>8-495-589-8013</phone>
+        </sales-agent>
+        <new-flat>1</new-flat>
+        <price>
+            <value>240000000</value>
+            <currency>RUR</currency>
+        </price>
+
+    </offer>
+
+    <!-- Комната/комнаты -->
+    <offer internal-id="3">
+        <type>продажа</type>
+        <property-type>жилая</property-type>
+        <category>комната</category>
+
+        <url>http://yandex.ru/1/</url>
+        <creation-date>2010-11-13T12:32:45+04:00</creation-date>
+        <location>
+            <country>Россия</country>
+            <region>Ленинградская область</region>
+            <district>Выборгский район</district>
+            <locality-name>Выборг</locality-name>
+            <address>улица сторожевой башни, 2</address>
+        </location>
+
+        <sales-agent>
+            <phone>8-910-428-5459</phone>
+            <category>владелец</category>
+        </sales-agent>
+    </offer>
+    <!-- Загород -->
+    <offer internal-id="4">
+        <type>продажа</type>
+        <property-type>жилая</property-type>
+        <category>коттедж</category>
+
+        <url>http://yandex.ru/1/</url>
+        <creation-date>2010-10-20T12:32:45+04:00</creation-date>
+
+    <location>
+            <country>Россия</country>
+            <locality-name>Москва</locality-name>
+            <address>Льва Толстого</address>
+        </location>
+
+        <sales-agent>
+            <phone>8-495-220-3206</phone>
+            <category>владелец</category>
+            <name>Иван Иваныч</name>
+        </sales-agent>
+    </offer>
+  <!-- Максимальный набор полей -->
+    <offer internal-id="7">
+
+        <type>продажа</type>
+        <property-type>жилая</property-type>
+        <category>дом с участком</category>
+        <url>http://yandex.ru/7/</url>
+        <payed-adv>1</payed-adv>
+        <manually-added>1</manually-added>
+        <creation-date>2010-12-05T00:00:00+04:00</creation-date>
+        <expire-date>2011-12-12T00:00:00+04:00</expire-date>
+        <last-update-date>2010-12-12T00:00:00+04:00</last-update-date>
+        <location>
+                <country>Россия</country>
+                <region>Тверская область</region>
+                <district>Вышневолоцкий район</district>
+                <locality-name>г.Вышний Волочек</locality-name>
+                <railway-station>Вышний Волочек</railway-station>
+        </location>
+        <sales-agent>
+                <name>Алексей</name>
+                <phone>8-903-808-00-53</phone>
+                <category>агентство</category>
+                <organization>Агентство недвижимости РУССКИЙ ДОМ</organization>
+                <url>http://anrd.ru/</url>
+                <email>anrusdom@ya.ru</email>
+        </sales-agent>
+        <price>
+                <value>2300000</value>
+                <currency>RUR</currency>
+        </price>
+        <haggle>1</haggle>
+        <mortgage>1</mortgage>
+        <image>http://yandex.ru/components/com_estateagent/pictures/ea1279882313.jpg</image>
+        <image>http://yandex.ru/components/com_estateagent/pictures/ea1279882363.jpg</image>
+        <image>http://yandex.ru/components/com_estateagent/pictures/ea1279882395.jpg</image>
+        <image>http://yandex.ru/components/com_estateagent/pictures/ea1279882424.jpg</image>
+        <image>http://yandex.ru/components/com_estateagent/pictures/ea1279882615.jpg</image>
+        <image>http://yandex.ru/components/com_estateagent/pictures/ea1279882707.jpg</image>
+        <image>http://yandex.ru/components/com_estateagent/pictures/ea1279882762.jpg</image>
+        <description>Тверская область, г.Вышний Волочек ( От МКАД 320км — по асфальтированной дороге.)
+                Продаю дом 80 кв.м с земельным участком 7 соток.
+                В доме — вода, газовое отопление, электричество. 3 комнаты, кухня, ванная, туалет.
+                Земельный участок разработан. На участке — гараж, баня, хоз.постройки.
+        </description>
+        <quality>хорошее</quality>
+        <area>
+                <value>80</value>
+                <unit>кв.м</unit>
+        </area>
+        <lot-area>
+                <value>7</value>
+                <unit>cот.</unit>
+        </lot-area>
+        <living-space>
+                <value>61</value>
+                <unit>кв.м</unit>
+        </living-space>
+        <kitchen-space>
+                <value>9</value>
+                <unit>кв.м</unit>
+        </kitchen-space>
+        <lot-type>ИЖС</lot-type>
+        <rooms>3</rooms>
+        <kitchen-furniture>1</kitchen-furniture>
+        <balcony>0</balcony>
+        <bathroom-unit>совмещенный</bathroom-unit>
+        <floors-total>1</floors-total>
+        <building-type>деревянный</building-type>
+        <pmg>1</pmg>
+        <is-elite>0</is-elite>
+        <toilet>в доме</toilet>
+        <shower>в доме</shower>
+        <kitchen>1</kitchen>
+        <heating-supply>1</heating-supply>
+        <water-supply>1</water-supply>
+        <electricity-supply>1</electricity-supply>
+        <sewerage-supply>1</sewerage-supply>
+        <gas-supply>1</gas-supply>
+        <parking>1</parking>
+        <alarm>0</alarm>
+        <pool>0</pool>
+        <sauna>1</sauna>
+
+    </offer>
+    <offer internal-id="8">
+        <type>продажа</type>
+        <property-type>жилая</property-type>
+        <category>участок</category>
+        <url>http://www.yandex.ru/8/</url>
+        <payed-adv>1</payed-adv>
+        <creation-date>2010-09-13T00:00:00+04:00</creation-date>
+        <manually-added>1</manually-added>
+        <location>
+
+            <country>Россия</country>
+            <region>Московская область</region>
+            <district>Красногорский район</district>
+            <locality-name>пос. дачного хозяйства Архангельское</locality-name>
+            <direction>Ильинское шоссе</direction>
+            <distance>9</distance>
+
+        </location>
+        <sales-agent>
+
+            <phone>(495)6-444-665</phone>
+            <category>агентство</category>
+            <organization>Panfilova Realty элитная недвижимость</organization>
+            <agency-id>2579</agency-id>
+            <url>http://www.panfilovarealty.ru/</url>
+            <email>office@panfilovarealty.ru</email>
+
+        </sales-agent>
+        <price>
+
+            <value>80000</value>
+            <currency>USD</currency>
+            <unit>сот</unit>
+
+       </price>
+       <haggle>1</haggle>
+       <mortgage>1</mortgage>
+       <image>http://www.yandex.ru/files/photos/shop/d8212824ffc6d9001ee3ee2a5e9c48a4.jpg</image>
+       <lot-area>
+
+           <value>0.7</value>
+           <unit>Га</unit>
+
+       </lot-area>
+       <lot-type>ИЖС</lot-type>
+       <water-supply>1</water-supply>
+       <sewerage-supply>1</sewerage-supply>
+       <electricity-supply>1</electricity-supply>
+       <gas-supply>1</gas-supply>
+       <is-elite>1</is-elite>
+       <alarm>1</alarm>
+    </offer>
+    <offer internal-id="333">
+        <type>продажа</type>
+        <property-type>жилая</property-type>
+        <category>комната</category>
+        <url>http://www.spb-estate.ru/sale_rooms.php?tableid=30&amp;amp;itemid=1469&amp;amp;pagemark=search</url>
+        <payed-adv>1</payed-adv>
+        <manually-added>1</manually-added>
+        <creation-date>2010-04-18T00:00:00+04:00</creation-date>
+        <last-update-date>2010-10-02T00:00:00+04:00</last-update-date>
+        <location>
+            <country>Россия</country>
+            <locality-name>Санкт-Петербург</locality-name>
+            <sub-locality-name>Адмиралтейский</sub-locality-name>
+            <address>Измайловский пр.,16</address>
+            <metro>
+                <name>Технологический институт</name>
+                <time-on-foot>10</time-on-foot>
+            </metro>
+        </location>
+        <sales-agent>
+            <name>Наталья</name>
+            <phone>8911-754-9253</phone>
+            <phone>8951-681-4121</phone>
+            <category>владелец</category>
+        </sales-agent>
+        <haggle>1</haggle>
+        <price>
+            <value>2350000</value>
+            <currency>RUR</currency>
+        </price>
+        <image>http://www.spb-estate.ru/user_files/normal/photo-normal-31-8954-92.jpg</image>
+        <image>http://www.spb-estate.ru/user_files/normal/photo-normal-31-8955-92.jpg</image>
+        <image>http://www.spb-estate.ru/user_files/normal/photo-normal-31-8956-92.jpg</image>
+        <quality>хорошее</quality>
+        <description>Очень приличная чистая квартира, рядом с кухней комната общего пользования 6 кв.м.
+                     Собственная прихожая на две комнаты, в большей комнате два окна в тихий двор,
+                     в маленькой остается встроенная мебель — стенка с двухспальным местом
+                     во втором ярусе, личный тел. Возможна продажа комнат врозь или обмен на 1 к.кв.,
+                     лучше в новом доме, возможно в новостройке. Прямая продажа, документы готовы.
+        </description>
+        <renovation>евро</renovation>
+        <area>
+             <value>66</value>
+             <unit>кв.м</unit>
+        </area>
+        <living-space>
+             <value>36</value>
+             <unit>кв.м</unit>
+        </living-space>
+        <kitchen-space>
+             <value>13</value>
+             <unit>кв.м</unit>
+        </kitchen-space>
+        <rooms>6</rooms>
+        <rooms-offered>2</rooms-offered>
+        <rooms-type>раздельные</rooms-type>
+        <building-type>кирпичный</building-type>
+        <phone>1</phone>
+        <room-furniture>1</room-furniture>
+        <kitchen-furniture>1</kitchen-furniture>
+        <bathroom-unit>раздельный</bathroom-unit>
+        <television>1</television>
+        <refrigerator>1</refrigerator>
+        <window-view>во двор</window-view>
+        <floor-covering>паркет</floor-covering>
+        <floor>4</floor>
+        <floors-total>6</floors-total>
+        <lift>0</lift>
+        <rubbish-chute>1</rubbish-chute>
+        <ceiling-height>2.5</ceiling-height>
+        <gas-supply>0</gas-supply>
+    </offer>
+    <offer internal-id="672">
+        <type>аренда</type>
+        <property-type>жилая</property-type>
+        <category>квартира</category>
+        <url>http://arenda.miel.ru/object/53269/</url>
+        <payed-adv>1</payed-adv>
+        <manually-added>1</manually-added>
+        <creation-date>2010-10-08T00:00:00+04:00</creation-date>
+        <last-update-date>2010-10-10T00:00:00+04:00</last-update-date>
+        <expire-date>2010-11-12T00:00:00+04:00</expire-date>
+        <location>
+            <country>Россия</country>
+            <locality-name>Москва</locality-name>
+            <sub-locality-name>Чертаново-Северное</sub-locality-name>
+            <address>Варшавское шоссе д.6, кв.43</address>
+            <metro>
+                <name>Чертановская</name>
+                <time-on-foot>7</time-on-foot>
+            </metro>
+        </location>
+        <sales-agent>
+            <phone>8(495)411-54-01</phone>
+            <category>агентство</category>
+            <organization>Миэль</organization>
+            <agency-id>53269</agency-id>
+            <url>http://arenda.miel.ru/</url>
+        </sales-agent>
+        <price>
+            <value>25000</value>
+            <currency>RUR</currency>
+            <period>месяц</period>
+        </price>
+        <image>http://arenda.data.miel.ru/53269/mmedia/1310222_pict_main.jpg</image>
+        <image>http://arenda.data.miel.ru/53269/mmedia/1310223_pict_main.jpg</image>
+        <image>http://arenda.data.miel.ru/53269/mmedia/1310224_pict_main.jpg</image>
+        <image>http://arenda.data.miel.ru/53269/mmedia/1310225_pict_main.jpg</image>
+        <image>http://arenda.data.miel.ru/53269/mmedia/1310226_pict_main.jpg</image>
+        <haggle>0</haggle>
+        <prepayment>100</prepayment>
+        <agent-fee>50</agent-fee>
+        <rent-pledge>0</rent-pledge>
+        <with-pets>0</with-pets>
+        <with-children>1</with-children>
+        <balcony>1</balcony>
+        <open-plan>0</open-plan>
+        <quality>хорошее</quality>
+        <description>Чистая квартира, наборная мебель, телевизор, холодильник,
+                       стир. машина под клиента в счет оплаты, интернет, домофон, консьерж.
+        </description>
+        <area>
+            <value>56</value>
+            <unit>кв.м</unit>
+        </area>
+        <living-space>
+            <value>36</value>
+            <unit>кв.м</unit>
+        </living-space>
+        <kitchen-space>
+            <value>8</value>
+            <unit>кв.м</unit>
+        </kitchen-space>
+        <rooms>1</rooms>
+        <phone>1</phone>
+        <room-furniture>1</room-furniture>
+        <kitchen-furniture>1</kitchen-furniture>
+        <bathroom-unit>совмещенный</bathroom-unit>
+        <floor-covering>паркет</floor-covering>
+        <floor>22</floor>
+        <floors-total>24</floors-total>
+        <lift>1</lift>
+        <television>1</television>
+        <washing-machine>0</washing-machine>
+        <rubbish-chute>1</rubbish-chute>
+        <ceiling-height>2.5</ceiling-height>
+        <refrigerator>1</refrigerator>
+        <renovation>евро</renovation>
+        <is-elite>0</is-elite>
+        <window-view>во двор</window-view>
+    </offer>
+    <offer internal-id="73722">
+        <type>продажа</type>
+        <property-type>жилая</property-type>
+        <category>квартира</category>
+        <url>http://www.prokinvest.ru/new_lahta.html?kv=3</url>
+        <payed-adv>1</payed-adv>
+        <manually-added>1</manually-added>
+        <creation-date>2010-10-06T10:34:07Z</creation-date>
+        <location>
+            <country>Россия</country>
+            <region>Санкт-Петербург</region>
+            <locality-name>Санкт-Петербург</locality-name>
+            <address>ул.Оптиков</address>
+            <metro>
+                <name>Старая деревня</name>
+                <time-on-foot>15</time-on-foot>
+            </metro>
+        </location>
+        <sales-agent>
+            <phone>(812)655-00-00</phone>
+            <category>агентство</category>
+            <organization>Группа компаний Прок</organization>
+            <url>http://www.prokinvest.ru/</url>
+            <agency-id>368</agency-id>
+        </sales-agent>
+        <price>
+            <value>5719500</value>
+            <currency>RUR</currency>
+        </price>
+        <price>
+            <value>62000</value>
+            <currency>RUR</currency>
+            <unit>кв.м</unit>
+        </price>
+        <description>Очень близко и удобно располагается выезд в самое престижное и
+                     любимое петербуржцами Курортное направление, позволяющее попасть
+                     на лучшие пляжи Финского залива и озера Карельского перешейка.
+                     Вместе с тем путь до центра города на машине занимает около пятнадцати минут.
+        </description>
+        <mortgage>1</mortgage>
+        <haggle>0</haggle>
+        <prepayment>0</prepayment>
+        <quality>отличное</quality>
+        <open-plan>1</open-plan>
+        <new-flat>1</new-flat>
+        <window-view>на парк</window-view>
+        <rooms>3</rooms>
+        <balcony>1</balcony>
+        <bathroom-unit>2</bathroom-unit>
+        <floor>19</floor>
+        <floors-total>25</floors-total>
+        <building-name>Лахта</building-name>
+        <building-type>кирпично-монолитный</building-type>
+        <building-state>unfinished</building-state>
+        <built-year>2011</built-year>
+        <ready-quarter>4</ready-quarter>
+        <is-elite>1</is-elite>
+        <lift>1</lift>
+        <rubbish-chute>1</rubbish-chute>
+        <parking>1</parking>
+        <alarm>0</alarm>
+        <ceiling-height>2.8</ceiling-height>
+        <renovation>без отделки</renovation>
+        <image>http://www.egsnk.ru/photos/novonewbuild/novonewbuild000174.jpg</image>
+        <image>http://www.egsnk.ru/photos/novonewbuild/novonewbuild000173.jpg</image>
+        <area>
+            <value>92.25</value>
+            <unit>кв.м</unit>
+        </area>
+        <living-space>
+            <value>51</value>
+            <unit>кв.м</unit>
+        </living-space>
+        <kitchen-space>
+            <value>14.98</value>
+            <unit>кв.м</unit>
+        </kitchen-space>
+    </offer>
+    <offer internal-id="3334">
+        <type>аренда</type>
+        <property-type>жилая</property-type>
+        <category>комната</category>
+        <url>http://trdom.ru/arenda/0/547/</url>
+        <payed-adv>1</payed-adv>
+        <manually-added>1</manually-added>
+        <creation-date>2010-03-09T00:00:00+04:00</creation-date>
+        <last-update-date>2010-09-10T00:00:00+04:00</last-update-date>
+        <expire-date>2011-10-30T00:00:00+04:00</expire-date>
+        <location>
+            <country>Россия</country>
+            <locality-name>Санкт-Петербург</locality-name>
+            <sub-locality-name>Кировский</sub-locality-name>
+            <address>Ленинский проспект</address>
+            <metro>
+                <name>Ленинский проспект</name>
+                <time-on-foot>10</time-on-foot>
+                <time-on-transport>5</time-on-transport>
+            </metro>
+        </location>
+        <sales-agent>
+            <phone>(812) 325-33-03</phone>
+            <phone>(812) 967-73-01</phone>
+            <category>агентство</category>
+            <organization>Троицкий дом</organization>
+            <agency-id>547</agency-id>
+            <url>http://trdom.ru//</url>
+        </sales-agent>
+        <price>
+            <value>7000</value>
+            <currency>RUR</currency>
+            <period>месяц</period>
+        </price>
+        <image>http://trdom.ru/images/800/600_100602_1275484443_0_nYa.jpg/</image>
+        <quality>хорошее</quality>
+        <haggle>1</haggle>
+        <prepayment>100</prepayment>
+        <rent-pledge>0</rent-pledge>
+        <with-pets>0</with-pets>
+        <with-children>0</with-children>
+        <description>Очень Хорошая комната, после ремонта, всё есть, без хозяйки
+        </description>
+        <area>
+            <value>36</value>
+            <unit>кв.м</unit>
+        </area>
+        <living-space>
+            <value>17</value>
+            <unit>кв.м</unit>
+        </living-space>
+        <kitchen-space>
+            <value>5</value>
+            <unit>кв.м</unit>
+        </kitchen-space>
+        <renovation>евро</renovation>
+        <rooms>2</rooms>
+        <rooms-offered>1</rooms-offered>
+        <rooms-type>раздельные</rooms-type>
+        <phone>1</phone>
+        <internet>1</internet>
+        <room-furniture>1</room-furniture>
+        <kitchen-furniture>1</kitchen-furniture>
+        <bathroom-unit>раздельный</bathroom-unit>
+        <television>1</television>
+        <balcony>0</balcony>
+        <floor-covering>ламинат</floor-covering>
+        <floor>5</floor>
+        <floors-total>9</floors-total>
+        <window-view>во двор</window-view>
+        <building-type>кирпичный</building-type>
+        <lift>1</lift>
+        <rubbish-chute>1</rubbish-chute>
+    </offer>
+</realty-feed>
